@@ -8,8 +8,6 @@ export const FormNote = ({ onSubmit, formNote }) => {
   const { userData, handleInputChange, errors } = formNote;
   const loading = useNoteStore((state) => state.loading)
 
-  console.log(formNote)
-
   return (
     <form
       onSubmit={onSubmit}
